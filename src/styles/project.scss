@@ -1,0 +1,25 @@
+@import '_variables';
+
+
+@media (max-width: 991px) {
+    .div-contact{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-contact{
+        height: 92vh;
+    }   
+}
+
+.a-project{
+    background-color: $color1 !important;
+    text-decoration: none;
+    border-color: $color1;
+    &:hover{
+        background-color: $color2 !important;
+        border-color: $color2;
+    }
+}

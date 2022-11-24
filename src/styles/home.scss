@@ -1,0 +1,15 @@
+@import '_variables';
+
+
+@media (max-width: 991px) {
+    .div-home{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-home{
+        height: 92vh;
+    }   
+}

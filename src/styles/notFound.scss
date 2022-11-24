@@ -1,0 +1,14 @@
+@import '_variables';
+
+.div-notFound{
+    height: 100vh;
+}
+
+.btn-notFound{
+    background-color: $color1 !important;
+    color: $color3 !important;
+    &:hover{
+        background-color: $color2 !important;
+        color: $color1 !important;
+    }
+}

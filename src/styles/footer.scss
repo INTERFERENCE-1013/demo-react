@@ -1,0 +1,14 @@
+@import '_variables';
+
+footer {
+    width: 100%;
+}
+
+.btn-footer{
+    background-color: $color2 !important;
+    color: $color1 !important;
+    &:hover{
+        background-color: $color3 !important;
+        color: $color1 !important;
+    }
+}
